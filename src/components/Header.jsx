@@ -74,8 +74,8 @@ export default function Header() {
       </div>
 
       {/* NAVBAR */}
-      <nav className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <nav className="bg-white sticky top-0 z-50 shadow-sm">
+        <div className="max-w-7xl static mx-auto px-4 py-4 flex justify-between items-center">
           {/* Logo */}
           <Image
             src="/blogo.webp"

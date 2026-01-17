@@ -9,7 +9,7 @@ import {
   Twitter,
   Linkedin,
   Instagram,
-  Send
+  Send,
 } from "lucide-react";
 
 function page() {
@@ -115,13 +115,13 @@ function page() {
 
                 {/* Submit Button */}
                 <button
-  type="submit"
-  className="flex items-center gap-2 bg-green-500 hover:bg-green-600 
+                  type="submit"
+                  className="flex items-center gap-2 bg-green-500 hover:bg-green-600 
              text-white px-10 py-2 rounded-md font-semibold transition"
->
-  Send Message
-  <Send className="w-4 h-4" />
-</button>
+                >
+                  Send Message
+                  <Send className="w-4 h-4" />
+                </button>
               </form>
             </div>
 
