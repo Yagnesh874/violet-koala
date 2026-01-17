@@ -62,39 +62,46 @@ export default function Home() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                className="
-              bg-[#28a745]
-              hover:bg-[#218838]
-              text-white
-              px-6
-              py-3
-              rounded-lg
-              font-semibold
-              transition
-              w-full
-              sm:w-auto
-            "
-              >
-                Explore Our Products
-              </button>
+              
+          <Link
+    href="/products"
+    className="
+      bg-[#28a745]
+      hover:bg-[#218838]
+      text-white
+      px-6
+      py-3
+      rounded-lg
+      font-semibold
+      transition
+      w-full
+      sm:w-auto
+      text-center
+    "
+  >
+    Explore Our Products
+  </Link>
+    {/* bg-[#007bff]
+              hover:bg-[#0056b3] */}
 
-              <button
-                className="
-              bg-[#007bff]
-              hover:bg-[#0056b3]
-              text-white
-              px-6
-              py-3
-              rounded-lg
-              font-semibold
-              transition
-              w-full
-              sm:w-auto
-            "
-              >
-                Learn More About Us
-              </button>
+                <Link
+    href="/about"
+    className="
+      bg-[#007bff]
+      hover:bg-[#0056b3]
+      text-white
+      px-6
+      py-3
+      rounded-lg
+      font-semibold
+      transition
+      w-full
+      sm:w-auto
+      text-center
+    "
+  >
+    Explore Our Products
+  </Link>
             </div>
           </div>
         </div>
@@ -295,12 +302,11 @@ export default function Home() {
             Pharmaceuticals can contribute to your success.
           </p>
 
-          <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition">
-            <Link href="/contact" className="">
-              {" "}
+          <Link href="/contact" className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+          
               Get in Touch
-            </Link>
-          </button>
+            
+          </Link>
         </div>
       </section>
     </>
